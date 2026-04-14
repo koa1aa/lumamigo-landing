@@ -234,3 +234,94 @@ nav{
   color: #5A7A9A;
   line-height: 1.6;
 }
+
+/* ===== HOW IT WORKS ===== */
+.how-it-works {
+  padding: 80px 40px;
+  background: white;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 36px;
+  color: #1A2E4A;
+  margin-bottom: 8px;
+}
+
+.how-sub {
+  font-size: 16px;
+  color: #5A7A9A;
+  margin-bottom: 48px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.step {
+  background: #E0F6FF;
+  border-radius: 24px;
+  padding: 36px 24px;
+  width: 240px;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.step:hover {
+  transform: translateY(-6px);
+}
+
+.step-number {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2BA8DC;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.step-icon {
+  font-size: 44px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.step h3 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+  color: #1A2E4A;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 13px;
+  color: #5A7A9A;
+  line-height: 1.6;
+}
+
+.step-arrow {
+  font-size: 32px;
+  color: #58C8F5;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .step-arrow {
+    transform: rotate(90deg);
+  }
+}
