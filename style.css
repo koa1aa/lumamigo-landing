@@ -1,4 +1,4 @@
-﻿/* ===== Fonts and Reset ===== */
+/* ===== Fonts and Reset ===== */
 
 *{
     margin: 0;
@@ -173,4 +173,64 @@ nav{
 @keyframes float{
     0%, 100% { transform: translateY(0px);}
     50%      { transform: translateY(-16px);}
+}
+
+/* ===== FEATURES ===== */
+.features {
+  padding: 80px 40px;
+  background: #E0F6FF;
+  text-align: center;
+}
+
+.features h2 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 36px;
+  color: #1A2E4A;
+  margin-bottom: 8px;
+}
+
+.features-sub {
+  font-size: 16px;
+  color: #5A7A9A;
+  margin-bottom: 48px;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 24px;
+  padding: 36px 28px;
+  width: 260px;
+  box-shadow: 0 8px 32px rgba(88,200,245,0.15);
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+
+.feature-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.feature-card h3 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 20px;
+  color: #1A2E4A;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #5A7A9A;
+  line-height: 1.6;
 }
